@@ -1,0 +1,175 @@
+.container {
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'roboto';
+  padding: 50px;
+}
+.manger-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 10px;
+  padding: 30px;
+}
+.heading {
+  font-size: 35px;
+  color: #475569;
+  font-weight: bold;
+}
+.para {
+  font-size: 18px;
+  font-weight: 300;
+  color: #475569;
+}
+.span-item {
+  color: #0b69ff;
+  font-size: 18px;
+  font-weight: 300;
+}
+.money-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.bal-cont {
+  display: flex;
+  flex-direction: row;
+  background-color: #ecfccb;
+  background-size: cover;
+  border: solid 2px #84cc16;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  margin-right: 10px;
+}
+.income-cont {
+  display: flex;
+  flex-direction: row;
+  background-color: #cffafe;
+  background-size: cover;
+  border: solid 2px #06b6d4;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  margin-right: 10px;
+}
+.expenses-cont {
+  display: flex;
+  flex-direction: row;
+  background-color: #ede9fe;
+  background-size: cover;
+  border: solid 2px #7c3aed;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  margin-right: 10px;
+}
+.img1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.balance-img {
+  height: 70px;
+  width: 70px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.para1 {
+  font-size: 14px;
+  color: #7e858e;
+}
+.para2 {
+  font-size: 17px;
+  font-weight: 500;
+  color: #7e858e;
+}
+.form-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.input-cont {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #cbd5e1;
+  border-radius: 10px;
+  width: 40%;
+  padding: 40px;
+}
+.form-details {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.title-input {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 40px;
+  border: solid 1px #cbd5e1;
+  padding-left: 10px;
+}
+.heading1 {
+  font-size: 30px;
+  color: #1e293b;
+}
+.lbl {
+  color: #7e858e;
+  font-size: 15px;
+}
+
+.add-btn {
+  height: 50px;
+  width: 100px;
+  border: solid 0px;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.cont2 {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #cbd5e1;
+  border-radius: 10px;
+  width: 60%;
+  padding: 40px;
+  margin-left: 30px;
+}
+.un-orderList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.list-item {
+  border: solid 1px #d7dfe9;
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+  justify-content: space-evenly;
+}
+.para3 {
+  color: #1e293b;
+  font-weight: 500;
+  font-size: 15px;
+}
+.para4 {
+  font-size: 14px;
+  color: #334155;
+}
+.delete-btn {
+  background-color: transparent;
+  border: solid 0px;
+}
+.delete-img {
+  height: 40px;
+  width: 40px;
+}
